@@ -1,0 +1,30 @@
+{
+    "name": "serrexlabs/laravel-cqrs",
+    "authors": [
+        {
+            "name": "Sanath Samarasinghe",
+            "email": "sanath@serrexlabs.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "league/fractal": "^0.17.0",
+        "illuminate/console": "~5.5",
+        "illuminate/container": "~5.5",
+        "illuminate/contracts": "~5.5",
+        "illuminate/http": "~5.5",
+        "illuminate/support": "~5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Serrexlabs\\Cqrs\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Serrexlabs\\Cqrs\\ServiceProvider"
+            ]
+        }
+    }
+}
